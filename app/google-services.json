@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "696776692679",
+    "firebase_url": "https://learnfirebase-828fb.firebaseio.com",
+    "project_id": "learnfirebase-828fb",
+    "storage_bucket": "learnfirebase-828fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696776692679:android:fcfef757a832647b",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696776692679-pcj1grh36rtuc7p7tf02b4agldo4joii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XLyBW5u3ibt1uwJdX1QNqwi6jGpPPf8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696776692679:android:1ea348887811c39b",
+        "android_client_info": {
+          "package_name": "kr.hs.emirim.festivalwhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696776692679-pcj1grh36rtuc7p7tf02b4agldo4joii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XLyBW5u3ibt1uwJdX1QNqwi6jGpPPf8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
