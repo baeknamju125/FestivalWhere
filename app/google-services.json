@@ -1,0 +1,89 @@
+{
+  "project_info": {
+    "project_number": "160786746976",
+    "firebase_url": "https://festivalwhere2016.firebaseio.com",
+    "project_id": "festivalwhere2016",
+    "storage_bucket": "festivalwhere2016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160786746976:android:fcfef757a832647b",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160786746976-5cvl7ilajjb3gk5gdc2562m2o2mv7357.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.quickstart.database",
+            "certificate_hash": "8543F54006C471AB96B949F13E3D27CF481F7100"
+          }
+        },
+        {
+          "client_id": "160786746976-el3ek7ignfq8mmftp5lr34in6l6mh2di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA55ZHD7ADZetypp9O1eQY2I2ts1BHzxbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160786746976:android:1ea348887811c39b",
+        "android_client_info": {
+          "package_name": "kr.hs.emirim.festivalwhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160786746976-62ju04n2fpk2khhqjsbtl51rutqg80vf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.hs.emirim.festivalwhere",
+            "certificate_hash": "AA1CBE7262A3C0F535F17F83A6DE5683F690F1D4"
+          }
+        },
+        {
+          "client_id": "160786746976-el3ek7ignfq8mmftp5lr34in6l6mh2di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA55ZHD7ADZetypp9O1eQY2I2ts1BHzxbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
