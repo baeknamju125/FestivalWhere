@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/this_month_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="몇년몇월"
+        android:textColor="#888888" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_below="@id/this_month_tv"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" >
+
+    </android.support.v4.view.ViewPager>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/viewPager"
+        android:id="@+id/messages_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/item_post" />
+</RelativeLayout>

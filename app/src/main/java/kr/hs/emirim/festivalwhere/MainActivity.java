@@ -29,6 +29,7 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import kr.hs.emirim.festivalwhere.fragment.Cal_Fragment;
 import kr.hs.emirim.festivalwhere.fragment.FestivalFragment;
 import kr.hs.emirim.festivalwhere.fragment.MyPostsFragment;
 import kr.hs.emirim.festivalwhere.fragment.MyTopPostFragment;
@@ -48,12 +49,14 @@ public class  MainActivity extends BaseActivity {
 
         mPagerAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
             private final Fragment[] mFragments = new Fragment[]{
+                    new Cal_Fragment(),
                     new RecentPostsFragment(),
                     new FestivalFragment(),
                     new MyPostsFragment(),
                     new MyTopPostFragment(),
             };
             private final String[] mFragmentNames = new String[]{
+                    "Home",
                     getString(R.string.heading_recent),
                     getString(R.string.heading_my_posts),
                     getString(R.string.heading_my_top_posts),
